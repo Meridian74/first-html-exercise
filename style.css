@@ -1,0 +1,13 @@
+p {
+   color: #015668;
+   background: #0D91A1;
+   width: 200px;
+   height: 50px;
+   padding: 15px;
+   margin: 15px;
+   border: 5px;
+   border-style: solid;
+   border-color: #7DCE94;
+   font-size: 25px;
+   font-family: 'Shadows Into Light', cursive;
+}
