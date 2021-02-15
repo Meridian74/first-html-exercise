@@ -26,4 +26,19 @@ else {
    $("p.west").text("A DOM Ereje");
 }
 
+let listOfNames = ["László Fazekas", "Leslie Potter", "Harry Potter"];
 
+let list = "";
+listOfNames.forEach(name => {
+   if (name === "László Fazekas") {
+      list = `${list} <li id="own-name">${name}</li> `;   
+   }
+   else {
+      list = `${list} <li>${name}</li> `;
+   }
+});
+
+$("body").append(`<ul>${list}</ul>`);
+$("li").css("font-size", "24px");
+$("li").css("color", "white");
+$("#own-name").css("font-weight", "900");
